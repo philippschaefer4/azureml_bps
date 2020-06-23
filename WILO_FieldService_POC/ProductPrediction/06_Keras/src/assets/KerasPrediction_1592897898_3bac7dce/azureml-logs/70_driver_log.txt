@@ -1,0 +1,32 @@
+Entering context manager injector. Current time:2020-06-23T07:43:32.357612
+Starting the daemon thread to refresh tokens in background for process with pid = 123
+Entering Run History Context Manager.
+Preparing to call script [ preprocess.py ] with arguments: []
+After variable expansion, calling script [ preprocess.py ] with arguments: []
+
+Starting the daemon thread to refresh tokens in background for process with pid = 123
+
+
+The experiment failed. Finalizing run...
+Cleaning up all outstanding Run operations, waiting 300.0 seconds
+2 items cleaning up...
+Cleanup took 0.5147566795349121 seconds
+Traceback (most recent call last):
+  File "preprocess.py", line 57, in <module>
+    pd.DataFrame(X_train, columns=feature_columns),
+  File "/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/frame.py", line 488, in __init__
+    mgr = init_ndarray(data, index, columns, dtype=dtype, copy=copy)
+  File "/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/construction.py", line 210, in init_ndarray
+    return create_block_manager_from_blocks(block_values, [columns, index])
+  File "/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py", line 1664, in create_block_manager_from_blocks
+    construction_error(tot_items, blocks[0].shape[1:], axes, e)
+  File "/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py", line 1694, in construction_error
+    raise ValueError(f"Shape of passed values is {passed}, indices imply {implied}")
+ValueError: Shape of passed values is (134561, 1), indices imply (134561, 34503)
+
+2020/06/23 07:50:32 mpirun version string: {
+Intel(R) MPI Library for Linux* OS, Version 2018 Update 3 Build 20180411 (id: 18329)
+Copyright 2003-2018 Intel Corporation.
+}
+2020/06/23 07:50:32 MPI publisher: intel ; version: 2018
+2020/06/23 07:50:32 Process Exiting with Code:  1

@@ -1,0 +1,12 @@
+Entering job preparation. Current time:2020-06-23T07:43:27.507741
+Starting job preparation. Current time:2020-06-23T07:43:28.304126
+Extracting the control code.
+fetching and extracting the control code on master node.
+Retrieving project from snapshot: 4b5dde9e-8dfb-4243-95c4-3412b69fdc21
+Starting the daemon thread to refresh tokens in background for process with pid = 65
+Starting project file download.
+Finished project file download.
+downloadDataStore - Download from datastores if requested.
+Entering context manager injector. Current time:2020-06-23T07:43:30.295594
+downloadDataStore completed
+Job preparation is complete. Current time:2020-06-23T07:43:31.079316

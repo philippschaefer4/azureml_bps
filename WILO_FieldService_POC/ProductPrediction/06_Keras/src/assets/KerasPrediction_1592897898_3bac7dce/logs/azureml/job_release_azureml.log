@@ -1,0 +1,321 @@
+2020-06-23 07:50:34,269|azureml|DEBUG|Execute Job Release Inputs:: kwargs: {'disable_output_upload': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2020-06-23 07:50:34,269|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2020-06-23 07:50:34,269|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2020-06-23 07:50:34,270|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2020-06-23 07:50:34,271|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2020-06-23 07:50:34,280|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,280|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2020-06-23 07:50:34,281|azureml.core.authentication|DEBUG|Time to expire 1813664.718968 seconds
+2020-06-23 07:50:34,281|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,281|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,281|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,281|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,282|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,282|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,283|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,288|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,298|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,303|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,310|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,316|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,317|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-06-23 07:50:34,317|msrest.service_client|DEBUG|Accept header absent and forced to application/json
+2020-06-23 07:50:34,317|msrest.http_logger|DEBUG|Request URL: 'https://westeurope.experiments.azureml.net/history/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runs/KerasPrediction_1592897898_3bac7dce'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|Request method: 'GET'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|Request headers:
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|    'Accept': 'application/json'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|    'Content-Type': 'application/json; charset=utf-8'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|    'x-ms-client-request-id': '65d7ce0c-316f-4b72-b742-2a861deef36e'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|    'request-id': '65d7ce0c-316f-4b72-b742-2a861deef36e'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|    'User-Agent': 'python/3.6.2 (Linux-4.15.0-1067-azure-x86_64-with-debian-stretch-sid) msrest/0.6.16 azureml._restclient/core.1.7.0 azureml-sdk-core/1.7.0'
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|Request body:
+2020-06-23 07:50:34,318|msrest.http_logger|DEBUG|None
+2020-06-23 07:50:34,319|msrest.universal_http|DEBUG|Configuring redirects: allow=True, max=30
+2020-06-23 07:50:34,319|msrest.universal_http|DEBUG|Configuring request: timeout=100, verify=True, cert=None
+2020-06-23 07:50:34,319|msrest.universal_http|DEBUG|Configuring proxies: ''
+2020-06-23 07:50:34,319|msrest.universal_http|DEBUG|Evaluate proxies against ENV settings: True
+2020-06-23 07:50:34,479|msrest.http_logger|DEBUG|Response status: 200
+2020-06-23 07:50:34,479|msrest.http_logger|DEBUG|Response headers:
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Date': 'Tue, 23 Jun 2020 07:50:34 GMT'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Content-Type': 'application/json; charset=utf-8'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Transfer-Encoding': 'chunked'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Connection': 'keep-alive'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Vary': 'Accept-Encoding'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'Request-Context': 'appId=cid-v1:6a27ce65-5555-41a3-85f7-b7a1ce31fd6b'
+2020-06-23 07:50:34,480|msrest.http_logger|DEBUG|    'x-ms-response-type': 'standard'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'x-ms-client-request-id': '65d7ce0c-316f-4b72-b742-2a861deef36e'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'x-ms-client-session-id': ''
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'Strict-Transport-Security': 'max-age=15724800; includeSubDomains; preload'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'x-request-time': '0.046'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'X-Content-Type-Options': 'nosniff'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|    'Content-Encoding': 'gzip'
+2020-06-23 07:50:34,481|msrest.http_logger|DEBUG|Response content:
+2020-06-23 07:50:34,482|msrest.http_logger|DEBUG|{
+  "runNumber": 29,
+  "rootRunId": "KerasPrediction_1592897898_3bac7dce",
+  "experimentId": "9379c296-f77e-4d69-b606-e7aaa3f78a3c",
+  "createdUtc": "2020-06-23T07:38:19.7275956+00:00",
+  "createdBy": {
+    "userObjectId": "12880502-d2bb-4011-bfcf-6f1de0c2ce92",
+    "userPuId": "10032000C4F4743E",
+    "userIdp": "https://sts.windows.net/b0102dfd-785a-4ad1-ac89-23942e445d96/",
+    "userAltSecId": "5::10037FFEA6FC44A1",
+    "userIss": "https://sts.windows.net/39288a38-ff19-432c-8011-1cd9d0dff445/",
+    "userTenantId": "39288a38-ff19-432c-8011-1cd9d0dff445",
+    "userName": "Philipp Klein"
+  },
+  "userId": "12880502-d2bb-4011-bfcf-6f1de0c2ce92",
+  "token": null,
+  "tokenExpiryTimeUtc": null,
+  "error": {
+    "error": {
+      "code": "UserError",
+      "message": "User program failed with ValueError: Shape of passed values is (134561, 1), indices imply (134561, 34503)",
+      "messageFormat": null,
+      "messageParameters": {},
+      "referenceCode": null,
+      "detailsUri": "https://aka.ms/azureml-known-errors",
+      "target": null,
+      "details": [],
+      "innerError": null,
+      "debugInfo": {
+        "type": "ValueError",
+        "message": "Shape of passed values is (134561, 1), indices imply (134561, 34503)",
+        "stackTrace": "  File \"/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml-setup/context_manager_injector.py\", line 148, in execute_with_context\n    runpy.run_path(sys.argv[0], globals(), run_name=\"__main__\")\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 263, in run_path\n    pkg_name=pkg_name, script_name=fname)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 96, in _run_module_code\n    mod_name, mod_spec, pkg_name, script_name)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"preprocess.py\", line 57, in <module>\n    pd.DataFrame(X_train, columns=feature_columns),\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/frame.py\", line 488, in __init__\n    mgr = init_ndarray(data, index, columns, dtype=dtype, copy=copy)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/construction.py\", line 210, in init_ndarray\n    return create_block_manager_from_blocks(block_values, [columns, index])\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py\", line 1664, in create_block_manager_from_blocks\n    construction_error(tot_items, blocks[0].shape[1:], axes, e)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py\", line 1694, in construction_error\n    raise ValueError(f\"Shape of passed values is {passed}, indices imply {implied}\")\n",
+        "innerException": null,
+        "data": null,
+        "errorResponse": null
+      }
+    },
+    "correlation": null,
+    "environment": null,
+    "location": null,
+    "time": "0001-01-01T00:00:00+00:00",
+    "componentName": null
+  },
+  "warnings": null,
+  "revision": 10,
+  "runUuid": "68fd0252-ca4f-4946-9532-b47bc28d18ff",
+  "parentRunUuid": null,
+  "rootRunUuid": "68fd0252-ca4f-4946-9532-b47bc28d18ff",
+  "runId": "KerasPrediction_1592897898_3bac7dce",
+  "parentRunId": null,
+  "status": "Running",
+  "startTimeUtc": "2020-06-23T07:42:23.307771+00:00",
+  "endTimeUtc": null,
+  "heartbeatEnabled": false,
+  "options": {
+    "generateDataContainerIdIfNotSpecified": true
+  },
+  "name": null,
+  "dataContainerId": "dcid.KerasPrediction_1592897898_3bac7dce",
+  "description": null,
+  "hidden": false,
+  "runType": "azureml.scriptrun",
+  "properties": {
+    "_azureml.ComputeTargetType": "amlcompute",
+    "ContentSnapshotId": "1696bdc8-5441-46d9-90d7-2f0ae000e305",
+    "ProcessInfoFile": "azureml-logs/process_info.json",
+    "ProcessStatusFile": "azureml-logs/process_status.json"
+  },
+  "scriptName": "preprocess.py",
+  "target": "mlcompute",
+  "uniqueChildRunComputeTargets": [],
+  "tags": {
+    "_aml_system_ComputeTargetStatus": "{\"AllocationState\":\"steady\",\"PreparingNodeCount\":0,\"RunningNodeCount\":0,\"CurrentNodeCount\":0}"
+  },
+  "inputDatasets": [
+    {
+      "identifier": {
+        "savedId": "9d38370a-0d3f-49f0-a325-7afc729c35a4",
+        "registeredId": null,
+        "registeredVersion": null
+      },
+      "consumptionType": "RunInput",
+      "inputDetails": {
+        "inputName": "df_prepared",
+        "mechanism": "Direct",
+        "pathOnCompute": null
+      }
+    }
+  ],
+  "outputDatasets": [],
+  "runDefinition": null,
+  "createdFrom": {
+    "type": "Notebook",
+    "locationType": "ArtifactId",
+    "location": "LocalUpload/KerasPrediction_1592897898_3bac7dce/02_Keras_Preprocess.ipynb"
+  },
+  "cancelUri": "https://westeurope.experiments.azureml.net/execution/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runId/KerasPrediction_1592897898_3bac7dce/cancel",
+  "completeUri": null,
+  "diagnosticsUri": "https://westeurope.experiments.azureml.net/execution/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runId/KerasPrediction_1592897898_3bac7dce/diagnostics",
+  "computeRequest": {
+    "nodeCount": 1
+  },
+  "retainForLifetimeOfWorkspace": false,
+  "queueingInfo": null
+}
+2020-06-23 07:50:34,488|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-06-23 07:50:34,489|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '1696bdc8-5441-46d9-90d7-2f0ae000e305', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2020-06-23 07:50:34,489|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-06-23 07:50:34,490|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,490|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,490|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,490|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,490|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,491|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,491|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westeurope.experiments.azureml.net.
+2020-06-23 07:50:34,496|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,502|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,508|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,514|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,519|msrest.universal_http.requests|DEBUG|Configuring retry: max_retries=3, backoff_factor=0.8, max_backoff=90
+2020-06-23 07:50:34,520|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-06-23 07:50:34,520|msrest.service_client|DEBUG|Accept header absent and forced to application/json
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|Request URL: 'https://westeurope.experiments.azureml.net/history/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runs/KerasPrediction_1592897898_3bac7dce'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|Request method: 'GET'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|Request headers:
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|    'Accept': 'application/json'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|    'Content-Type': 'application/json; charset=utf-8'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|    'x-ms-client-request-id': 'f15e9e65-8be8-4b82-a958-85b3f86e9647'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|    'request-id': 'f15e9e65-8be8-4b82-a958-85b3f86e9647'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|    'User-Agent': 'python/3.6.2 (Linux-4.15.0-1067-azure-x86_64-with-debian-stretch-sid) msrest/0.6.16 azureml._restclient/core.1.7.0 azureml-sdk-core/1.7.0'
+2020-06-23 07:50:34,521|msrest.http_logger|DEBUG|Request body:
+2020-06-23 07:50:34,522|msrest.http_logger|DEBUG|None
+2020-06-23 07:50:34,522|msrest.universal_http|DEBUG|Configuring redirects: allow=True, max=30
+2020-06-23 07:50:34,522|msrest.universal_http|DEBUG|Configuring request: timeout=100, verify=True, cert=None
+2020-06-23 07:50:34,522|msrest.universal_http|DEBUG|Configuring proxies: ''
+2020-06-23 07:50:34,522|msrest.universal_http|DEBUG|Evaluate proxies against ENV settings: True
+2020-06-23 07:50:34,805|msrest.http_logger|DEBUG|Response status: 200
+2020-06-23 07:50:34,805|msrest.http_logger|DEBUG|Response headers:
+2020-06-23 07:50:34,805|msrest.http_logger|DEBUG|    'Date': 'Tue, 23 Jun 2020 07:50:34 GMT'
+2020-06-23 07:50:34,805|msrest.http_logger|DEBUG|    'Content-Type': 'application/json; charset=utf-8'
+2020-06-23 07:50:34,805|msrest.http_logger|DEBUG|    'Transfer-Encoding': 'chunked'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'Connection': 'keep-alive'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'Vary': 'Accept-Encoding'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'Request-Context': 'appId=cid-v1:6a27ce65-5555-41a3-85f7-b7a1ce31fd6b'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'x-ms-response-type': 'standard'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'x-ms-client-request-id': 'f15e9e65-8be8-4b82-a958-85b3f86e9647'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'x-ms-client-session-id': ''
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'Strict-Transport-Security': 'max-age=15724800; includeSubDomains; preload'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'x-request-time': '0.205'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'X-Content-Type-Options': 'nosniff'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|    'Content-Encoding': 'gzip'
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|Response content:
+2020-06-23 07:50:34,806|msrest.http_logger|DEBUG|{
+  "runNumber": 29,
+  "rootRunId": "KerasPrediction_1592897898_3bac7dce",
+  "experimentId": "9379c296-f77e-4d69-b606-e7aaa3f78a3c",
+  "createdUtc": "2020-06-23T07:38:19.7275956+00:00",
+  "createdBy": {
+    "userObjectId": "12880502-d2bb-4011-bfcf-6f1de0c2ce92",
+    "userPuId": "10032000C4F4743E",
+    "userIdp": "https://sts.windows.net/b0102dfd-785a-4ad1-ac89-23942e445d96/",
+    "userAltSecId": "5::10037FFEA6FC44A1",
+    "userIss": "https://sts.windows.net/39288a38-ff19-432c-8011-1cd9d0dff445/",
+    "userTenantId": "39288a38-ff19-432c-8011-1cd9d0dff445",
+    "userName": "Philipp Klein"
+  },
+  "userId": "12880502-d2bb-4011-bfcf-6f1de0c2ce92",
+  "token": null,
+  "tokenExpiryTimeUtc": null,
+  "error": {
+    "error": {
+      "code": "UserError",
+      "message": "User program failed with ValueError: Shape of passed values is (134561, 1), indices imply (134561, 34503)",
+      "messageFormat": null,
+      "messageParameters": {},
+      "referenceCode": null,
+      "detailsUri": "https://aka.ms/azureml-known-errors",
+      "target": null,
+      "details": [],
+      "innerError": null,
+      "debugInfo": {
+        "type": "ValueError",
+        "message": "Shape of passed values is (134561, 1), indices imply (134561, 34503)",
+        "stackTrace": "  File \"/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml-setup/context_manager_injector.py\", line 148, in execute_with_context\n    runpy.run_path(sys.argv[0], globals(), run_name=\"__main__\")\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 263, in run_path\n    pkg_name=pkg_name, script_name=fname)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 96, in _run_module_code\n    mod_name, mod_spec, pkg_name, script_name)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"preprocess.py\", line 57, in <module>\n    pd.DataFrame(X_train, columns=feature_columns),\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/frame.py\", line 488, in __init__\n    mgr = init_ndarray(data, index, columns, dtype=dtype, copy=copy)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/construction.py\", line 210, in init_ndarray\n    return create_block_manager_from_blocks(block_values, [columns, index])\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py\", line 1664, in create_block_manager_from_blocks\n    construction_error(tot_items, blocks[0].shape[1:], axes, e)\n  File \"/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/lib/python3.6/site-packages/pandas/core/internals/managers.py\", line 1694, in construction_error\n    raise ValueError(f\"Shape of passed values is {passed}, indices imply {implied}\")\n",
+        "innerException": null,
+        "data": null,
+        "errorResponse": null
+      }
+    },
+    "correlation": null,
+    "environment": null,
+    "location": null,
+    "time": "0001-01-01T00:00:00+00:00",
+    "componentName": null
+  },
+  "warnings": null,
+  "revision": 11,
+  "runUuid": "68fd0252-ca4f-4946-9532-b47bc28d18ff",
+  "parentRunUuid": null,
+  "rootRunUuid": "68fd0252-ca4f-4946-9532-b47bc28d18ff",
+  "runId": "KerasPrediction_1592897898_3bac7dce",
+  "parentRunId": null,
+  "status": "Finalizing",
+  "startTimeUtc": "2020-06-23T07:42:23.307771+00:00",
+  "endTimeUtc": null,
+  "heartbeatEnabled": false,
+  "options": {
+    "generateDataContainerIdIfNotSpecified": true
+  },
+  "name": null,
+  "dataContainerId": "dcid.KerasPrediction_1592897898_3bac7dce",
+  "description": null,
+  "hidden": false,
+  "runType": "azureml.scriptrun",
+  "properties": {
+    "_azureml.ComputeTargetType": "amlcompute",
+    "ContentSnapshotId": "1696bdc8-5441-46d9-90d7-2f0ae000e305",
+    "ProcessInfoFile": "azureml-logs/process_info.json",
+    "ProcessStatusFile": "azureml-logs/process_status.json"
+  },
+  "scriptName": "preprocess.py",
+  "target": "mlcompute",
+  "uniqueChildRunComputeTargets": [],
+  "tags": {
+    "_aml_system_ComputeTargetStatus": "{\"AllocationState\":\"steady\",\"PreparingNodeCount\":0,\"RunningNodeCount\":0,\"CurrentNodeCount\":0}"
+  },
+  "inputDatasets": [
+    {
+      "identifier": {
+        "savedId": "9d38370a-0d3f-49f0-a325-7afc729c35a4",
+        "registeredId": null,
+        "registeredVersion": null
+      },
+      "consumptionType": "RunInput",
+      "inputDetails": {
+        "inputName": "df_prepared",
+        "mechanism": "Direct",
+        "pathOnCompute": null
+      }
+    }
+  ],
+  "outputDatasets": [],
+  "runDefinition": null,
+  "createdFrom": {
+    "type": "Notebook",
+    "locationType": "ArtifactId",
+    "location": "LocalUpload/KerasPrediction_1592897898_3bac7dce/02_Keras_Preprocess.ipynb"
+  },
+  "cancelUri": "https://westeurope.experiments.azureml.net/execution/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runId/KerasPrediction_1592897898_3bac7dce/cancel",
+  "completeUri": null,
+  "diagnosticsUri": "https://westeurope.experiments.azureml.net/execution/v1.0/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/providers/Microsoft.MachineLearningServices/workspaces/resdynml1test/experiments/KerasPrediction/runId/KerasPrediction_1592897898_3bac7dce/diagnostics",
+  "computeRequest": {
+    "nodeCount": 1
+  },
+  "retainForLifetimeOfWorkspace": false,
+  "queueingInfo": null
+}
+2020-06-23 07:50:34,809|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-06-23 07:50:34,809|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '1696bdc8-5441-46d9-90d7-2f0ae000e305', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2020-06-23 07:50:34,810|azureml._SubmittedRun#KerasPrediction_1592897898_3bac7dce.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-06-23 07:50:34,810|azureml.WorkerPool|DEBUG|[START]
+2020-06-23 07:50:34,810|azureml.TrackFolders|DEBUG|[START]
+2020-06-23 07:50:34,810|azureml|DEBUG|Executing history release.
+2020-06-23 07:50:34,810|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: [], excluding ['azureml-logs/driver_log']
+2020-06-23 07:50:34,810|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2020-06-23 07:50:34,810|azureml.TrackFolders|DEBUG|[STOP]
+2020-06-23 07:50:34,810|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2020-06-23 07:50:34,810|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2020-06-23 07:50:34,811|azureml.WorkerPool|DEBUG|[STOP]

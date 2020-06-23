@@ -1,0 +1,188 @@
+2020-06-23T07:42:26Z Executing 'Copy ACR Details file' on 10.0.0.4
+2020-06-23T07:42:26Z Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   
+>>>   
+2020-06-23T07:42:26Z Starting output-watcher...
+2020-06-23T07:42:26Z IsDedicatedCompute == True, won't poll for Low Pri Preemption
+Login Succeeded
+Using default tag: latest
+latest: Pulling from azureml/azureml_c14e68a5a54beac144cd751fe11b91c5
+a1298f4ce990: Pulling fs layer
+04a3282d9c4b: Pulling fs layer
+9b0d3db6dc03: Pulling fs layer
+8269c605f3f1: Pulling fs layer
+6504d449e70c: Pulling fs layer
+4e38f320d0d4: Pulling fs layer
+b0a763e8ee03: Pulling fs layer
+11917a028ca4: Pulling fs layer
+a6c378d11cbf: Pulling fs layer
+6cc007ad9140: Pulling fs layer
+6c1698a608f3: Pulling fs layer
+000aacc20dee: Pulling fs layer
+921e47b34d8d: Pulling fs layer
+79aa1f3566b6: Pulling fs layer
+114594c89ae1: Pulling fs layer
+1f700cc39777: Pulling fs layer
+6cf3cc306b86: Pulling fs layer
+6cc007ad9140: Waiting
+8269c605f3f1: Waiting
+79aa1f3566b6: Waiting
+6504d449e70c: Waiting
+114594c89ae1: Waiting
+1f700cc39777: Waiting
+6cf3cc306b86: Waiting
+000aacc20dee: Waiting
+4e38f320d0d4: Waiting
+b0a763e8ee03: Waiting
+11917a028ca4: Waiting
+a6c378d11cbf: Waiting
+921e47b34d8d: Waiting
+9b0d3db6dc03: Verifying Checksum
+9b0d3db6dc03: Download complete
+04a3282d9c4b: Verifying Checksum
+04a3282d9c4b: Download complete
+a1298f4ce990: Download complete
+8269c605f3f1: Verifying Checksum
+8269c605f3f1: Download complete
+4e38f320d0d4: Verifying Checksum
+4e38f320d0d4: Download complete
+b0a763e8ee03: Verifying Checksum
+b0a763e8ee03: Download complete
+6504d449e70c: Verifying Checksum
+6504d449e70c: Download complete
+6cc007ad9140: Verifying Checksum
+6cc007ad9140: Download complete
+a1298f4ce990: Pull complete
+04a3282d9c4b: Pull complete
+9b0d3db6dc03: Pull complete
+8269c605f3f1: Pull complete
+11917a028ca4: Verifying Checksum
+11917a028ca4: Download complete
+000aacc20dee: Verifying Checksum
+000aacc20dee: Download complete
+6c1698a608f3: Download complete
+a6c378d11cbf: Verifying Checksum
+a6c378d11cbf: Download complete
+921e47b34d8d: Verifying Checksum
+921e47b34d8d: Download complete
+79aa1f3566b6: Download complete
+114594c89ae1: Download complete
+6cf3cc306b86: Download complete
+6504d449e70c: Pull complete
+4e38f320d0d4: Pull complete
+1f700cc39777: Download complete
+b0a763e8ee03: Pull complete
+11917a028ca4: Pull complete
+a6c378d11cbf: Pull complete
+6cc007ad9140: Pull complete
+6c1698a608f3: Pull complete
+000aacc20dee: Pull complete
+921e47b34d8d: Pull complete
+79aa1f3566b6: Pull complete
+114594c89ae1: Pull complete
+1f700cc39777: Pull complete
+6cf3cc306b86: Pull complete
+Digest: sha256:7599d0a6023b356a998541c47fbac5f1c5fa1703ab6a07da45ad6b75da1ee74d
+Status: Downloaded newer image for resdynml1tes2b0154b9.azurecr.io/azureml/azureml_c14e68a5a54beac144cd751fe11b91c5:latest
+f338738bda51f2a17054ac3b9b672333dba696d92326ac7092dc1554ad83961a
+2020/06/23 07:43:26 Starting App Insight Logger for task:  containerSetup
+2020/06/23 07:43:26 Version: 3.0.01251.0001 Branch: master Commit: 31ab202d
+2020/06/23 07:43:26 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+2020/06/23 07:43:26 sshd inside container not required for job, skipping setup.
+2020/06/23 07:43:26 All App Insights Logs was send successfully
+2020-06-23T07:43:31Z Job environment preparation succeeded on 10.0.0.4. Output: 
+>>>   2020/06/23 07:42:23 Starting App Insight Logger for task:  prepareJobEnvironment
+>>>   2020/06/23 07:42:23 Version: 3.0.01251.0001 Branch: master Commit: 31ab202d
+>>>   2020/06/23 07:42:23 DetonationChamber is not enabled on this subscription: 793146d9-d4dc-4a73-9728-76c4ffd0cc0d
+>>>   2020/06/23 07:42:23 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/config
+>>>   2020/06/23 07:42:23 This is not a aml-workstation (compute instance), current offer type: azureml. Starting identity responder as part of prepareJobEnvironment.
+>>>   2020/06/23 07:42:23 Started Identity Responder for job.
+>>>   2020/06/23 07:42:23 Started Identity Responder for job.
+>>>   2020/06/23 07:42:23 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/wd
+>>>   2020/06/23 07:42:23 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/shared
+>>>   2020/06/23 07:42:23 Mounting job level file systems
+>>>   2020/06/23 07:42:23 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts
+>>>   2020/06/23 07:42:23 Attempting to read datastore credentials file: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/config/.amlcompute.datastorecredentials
+>>>   2020/06/23 07:42:23 Datastore credentials file not found, skipping.
+>>>   2020/06/23 07:42:23 Attempting to read runtime sas tokens file: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/config/.master.runtimesastokens
+>>>   2020/06/23 07:42:23 Runtime sas tokens file not found, skipping.
+>>>   2020/06/23 07:42:23 No NFS configured
+>>>   2020/06/23 07:42:23 Start to pulling docker image: resdynml1tes2b0154b9.azurecr.io/azureml/azureml_c14e68a5a54beac144cd751fe11b91c5
+>>>   2020/06/23 07:42:23 No Azure File Shares configured
+>>>   2020/06/23 07:42:23 Mounting blob file systems
+>>>   2020/06/23 07:42:23 Requesting XDS for registry details.
+>>>   2020/06/23 07:42:23 Attempt 1 of http call to https://westeurope-prodk8ds.batchai.core.windows.net/hosttoolapi/subscriptions/793146d9-d4dc-4a73-9728-76c4ffd0cc0d/resourceGroups/rg_dynamics_test/workspaces/resdynml1test/clusters/mlcompute/nodes/tvmps_d3f1963505f601ba580217fd966c2e91c367bb0fec2593742c8f374864ff7634_d?api-version=2018-02-01
+>>>   2020/06/23 07:42:23 Mounting azureml-blobstore-024d0db0-e7bd-4a17-9a2c-235e6a699414 container from resdynml1test6456542521 account at /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore
+>>>   2020/06/23 07:42:23 Using Compute Identity to authenticate Blobfuse: false.
+>>>   2020/06/23 07:42:23 Using Compute Identity to authenticate Blobfuse: false.
+>>>   2020/06/23 07:42:23 Running following command: &{/bin/bash [bash -c sudo blobfuse /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore --tmp-path=/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/caches/workspaceblobstore --file-cache-timeout-in-seconds=1000000 -o nonempty -o allow_other --config-file=/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/configs/workspaceblobstore.cfg --log-level=LOG_WARNING] []  <nil>   [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/06/23 07:42:23 Successfully mounted a/an Blobfuse File System at /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore
+>>>   2020/06/23 07:42:23 Waiting for blobfs to be mounted at /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore
+>>>   2020/06/23 07:42:24 Successfully mounted azureml-blobstore-024d0db0-e7bd-4a17-9a2c-235e6a699414 container from resdynml1test6456542521 account at /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore
+>>>   2020/06/23 07:42:24 No unmanaged file systems configured
+>>>   2020/06/23 07:42:24 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs
+>>>   2020/06/23 07:42:25 Attempt 1. XDS Api returned non-successful ErrorCode: Success
+>>>    ErrorMessage: 
+>>>   
+>>>   2020/06/23 07:42:25 Got container registry details from credentials service.
+>>>   2020/06/23 07:42:25 Writing ACR Details to file...
+>>>   2020/06/23 07:42:25 Copying ACR Details file to worker nodes...
+>>>   2020/06/23 07:42:25 Executing 'Copy ACR Details file' on 10.0.0.4
+>>>   2020/06/23 07:42:26 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/logs
+>>>   2020/06/23 07:42:26 Creating directory /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/outputs
+>>>   2020/06/23 07:42:26 Copy ACR Details file succeeded on 10.0.0.4. Output: 
+>>>   >>>   
+>>>   >>>   
+>>>   2020/06/23 07:42:26 Starting output-watcher...
+>>>   2020/06/23 07:43:18 /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+>>>   2020/06/23 07:43:18 Running Docker command: docker run --ulimit memlock=9223372036854775807 --ulimit nofile=262144:262144 --cap-add sys_ptrace --name kerasprediction_1592897898_3bac7dce -v /mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts -v /mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs -v /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared -v /mnt/batch/tasks/workitems/89ad9b99-3fc5-460f-a44e-9b47e655bcea/job-1/kerasprediction_15928978_2392c27d-729b-4bd9-9116-0406962b93bc/certs:/mnt/batch/tasks/workitems/89ad9b99-3fc5-460f-a44e-9b47e655bcea/job-1/kerasprediction_15928978_2392c27d-729b-4bd9-9116-0406962b93bc/certs -v /mnt/batch/tasks/startup:/mnt/batch/tasks/startup -v /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs -v /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce:/mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce -v /mnt/batch/tasks/workitems/89ad9b99-3fc5-460f-a44e-9b47e655bcea/job-1/kerasprediction_15928978_2392c27d-729b-4bd9-9116-0406962b93bc/wd:/mnt/batch/tasks/workitems/89ad9b99-3fc5-460f-a44e-9b47e655bcea/job-1/kerasprediction_15928978_2392c27d-729b-4bd9-9116-0406962b93bc/wd -v /opt/azureml:/opt/azureml:ro -w /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/wd --expose 23 --env-file /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/config/.batchai.envlist --shm-size 2g -d -it --privileged --net=host resdynml1tes2b0154b9.azurecr.io/azureml/azureml_c14e68a5a54beac144cd751fe11b91c5
+>>>   2020/06/23 07:43:26 Container ssh is not required for job type.
+>>>   2020/06/23 07:43:26 runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs
+>>>   2020/06/23 07:43:26 runSpecialJobTask: Raw cmd for preparation is passed is: /azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/bin/python $AZ_BATCHAI_INPUT_AZUREML/KerasPrediction_1592897898_3bac7dce-setup/job_prep.py --snapshots '[{"Id":"4b5dde9e-8dfb-4243-95c4-3412b69fdc21","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2020/06/23 07:43:26 runSpecialJobTask: stdout path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs/65_job_prep-tvmps_d3f1963505f601ba580217fd966c2e91c367bb0fec2593742c8f374864ff7634_d.txt
+>>>   2020/06/23 07:43:26 runSpecialJobTask: stderr path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs/65_job_prep-tvmps_d3f1963505f601ba580217fd966c2e91c367bb0fec2593742c8f374864ff7634_d.txt
+>>>   2020/06/23 07:43:26 runSpecialJobTask: Running cmd: &{/usr/bin/docker [docker exec -t kerasprediction_1592897898_3bac7dce bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;cd /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce;/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/bin/python $AZ_BATCHAI_INPUT_AZUREML/KerasPrediction_1592897898_3bac7dce-setup/job_prep.py --snapshots '[{"Id":"4b5dde9e-8dfb-4243-95c4-3412b69fdc21","PathStack":["."],"SnapshotEntityId":null}]'] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/06/23 07:43:31 runSpecialJobTask: job preparation exited with code 0 and err <nil>
+>>>   
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Entering job preparation. Current time:2020-06-23T07:43:27.507741
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Starting job preparation. Current time:2020-06-23T07:43:28.304126
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Extracting the control code.
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: fetching and extracting the control code on master node.
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Retrieving project from snapshot: 4b5dde9e-8dfb-4243-95c4-3412b69fdc21
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Starting the daemon thread to refresh tokens in background for process with pid = 65
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Starting project file download.
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Finished project file download.
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: downloadDataStore - Download from datastores if requested.
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Entering context manager injector. Current time:2020-06-23T07:43:30.295594
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: downloadDataStore completed
+>>>   2020/06/23 07:43:31 runSpecialJobTask: preparation: Job preparation is complete. Current time:2020-06-23T07:43:31.079316
+>>>   2020/06/23 07:43:31 All App Insights Logs was send successfully
+>>>   2020/06/23 07:43:31 Process Exiting with Code:  0
+>>>   
+2020-06-23T07:43:31Z 127.0.0.1 slots=8 max-slots=8
+2020-06-23T07:43:31Z launching Custom job
+2020-06-23T07:50:32Z job exited with code 1
+2020-06-23T07:50:32Z Executing 'JobRelease task' on 10.0.0.4
+2020-06-23T07:50:36Z JobRelease task succeeded on 10.0.0.4. Output: 
+>>>   2020/06/23 07:50:32 Starting App Insight Logger for task:  jobRelease
+>>>   2020/06/23 07:50:32 Version: 3.0.01251.0001 Branch: master Commit: 31ab202d
+>>>   2020/06/23 07:50:32 runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs
+>>>   2020/06/23 07:50:32 runSpecialJobTask: Raw cmd for postprocessing is passed is: export AZ_BATCHAI_RUN_STATUS='FAILED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/bin/python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml-setup/job_release.py
+>>>   2020/06/23 07:50:32 runSpecialJobTask: stdout path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs/75_job_post-tvmps_d3f1963505f601ba580217fd966c2e91c367bb0fec2593742c8f374864ff7634_d.txt
+>>>   2020/06/23 07:50:32 runSpecialJobTask: stderr path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml_compute_logs/75_job_post-tvmps_d3f1963505f601ba580217fd966c2e91c367bb0fec2593742c8f374864ff7634_d.txt
+>>>   2020/06/23 07:50:32 runSpecialJobTask: Running cmd: &{/usr/bin/docker [docker exec -t kerasprediction_1592897898_3bac7dce bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;cd /mnt/batch/tasks/shared/LS_root/jobs/resdynml1test/azureml/kerasprediction_1592897898_3bac7dce/mounts/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce;export AZ_BATCHAI_RUN_STATUS='FAILED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';/azureml-envs/azureml_42df74e95cf2de1f301b9fba9e8035c0/bin/python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/KerasPrediction_1592897898_3bac7dce/azureml-setup/job_release.py] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/06/23 07:50:36 runSpecialJobTask: job postprocessing exited with code 0 and err <nil>
+>>>   
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Entering job release. Current time:2020-06-23T07:50:33.210709
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Starting job release. Current time:2020-06-23T07:50:34.238723
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Logging experiment finalizing status in history service.
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Starting the daemon thread to refresh tokens in background for process with pid = 414
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Entering context manager injector. Current time:2020-06-23T07:50:34.265973
+>>>   2020/06/23 07:50:36 runSpecialJobTask: postprocessing: Job release is complete. Current time:2020-06-23T07:50:36.200556
+>>>   2020/06/23 07:50:36 All App Insights Logs was send successfully
+>>>   
+2020-06-23T07:50:36Z Executing 'Collect error information from workers' on 10.0.0.4
+2020-06-23T07:50:36Z Collect error information from workers succeeded on 10.0.0.4. Output: 
+>>>   
+>>>   
+2020-06-23T07:50:36Z Executing 'Job environment clean-up' on 10.0.0.4
